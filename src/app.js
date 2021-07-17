@@ -101,5 +101,5 @@ app.get('*', (req,res) => {
 
 app.listen(port, () => {
     console.log();
-    console.log(chalk.yellow(' ~~ Server is up on port ' + port))
+    console.log(chalk.yellow(' ~~ Server is up on port ' + port + ' ~~'))
 })
